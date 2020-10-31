@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- font-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+    
+</head>
+<body>
+    <main class="container" >  
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-md-center" >
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href ="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href ="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href ="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href ="blog.html" class="nav-link">Blog</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <div>
+
+            <ul id="posts-list" class="no-bullets" style="list-style-type: none; padding-left:15px; padding-right:30px;">
+                <li>
+                    <div class="blog-post">
+                        <h2 class="display-4  blog-title">Sample blog post</h2>
+                        <p style="display:inline">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="blog-post">
+                        <h2 class="display-4 blog-title">Pricing</h2>
+                        <p style="display:inline">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="blog-post">
+                        <h2 class="display-4 blog-title">New feature</h2>
+                        <p style="display:inline">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="blog-post">
+                        <h2 class="display-4 blog-title">Another blog post</h2>
+                        <p style="display:inline">Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div>
+
+            <div class="card container">
+                
+                <div class="mb-3">
+                    <label for="post-title">Title:</label>
+                    <input type="text" id="post-title" class="form-control" placeholder="Post title" aria-describedby="basic-addon1"/>
+                </div>
+
+                <div class=" mb-3">
+                    <label for="post-input">Message:</label>
+                    <textarea type="input" id ="post-input" class="form-control" aria-label="Message" placeholder="Post content" style="min-height:100px;"></textarea>
+                </div>
+                
+                <button type ="button" onclick="return newPost();" class="btn btn-light row mb-3" style="width:100%;"> New post </button>
+            </div>
+
+            <div>
+                <p>Got something else to say? Feel free to <span><a href="contact.html">leave me a message.</a></span> </p>
+            </div>
+        </div>
+
+    </main>
+    
+
+    <script src="js/myscript.js"></script>
+</body>
+</html>

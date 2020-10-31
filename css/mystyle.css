@@ -1,0 +1,30 @@
+li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+  }
+
+.blog-post{
+
+    padding-bottom:25px;
+    margin-bottom: 25px;
+}
+
+#contact-form{
+    margin-left:20%;
+    margin-right: 20%;
+    margin-top: 35px;
+}
+
+.error{
+    color:red;
+}
+.blog-title{   
+    font-family:  Georgia, "Times New Roman", serif;
+
+}
+.index{
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
